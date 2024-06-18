@@ -9,10 +9,8 @@ import java.util.List;
  * Represents a Bloom filter and provides default methods for hashing.
  *
  * <p>Future plans:
- * <li>Make this interface (and implementations) compatible with {@code Cloneable} and {@code Serializable} interfaces
+ * <li>Make this interface (and implementations) compatible with {@code Serializable} interfaces
  * <li>Allow merging of two Bloom Filters
- *
- * @author nicholas.leong
  */
 public interface BloomFilter<T> {
 

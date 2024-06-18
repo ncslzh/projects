@@ -33,7 +33,6 @@ import java.util.Objects;
  * <p>See {@link BloomFilterManager} for declaring BFs used in the project
  *
  * @param <T> the type of instances that the {@code BloomFilter} accepts
- * @author nicholas.leong
  */
 @Slf4j
 public class BloomFilterRedis<T> implements BloomFilter<T> {

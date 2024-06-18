@@ -18,8 +18,6 @@ import java.util.stream.Stream;
  *
  * <p>Exercise caution when declaring a large BitSet, as it may severely degrade Redis Performance
  * <p>Each call to any operations uses at most one round-trip by taking advantage of pipelining.
- *
- * @author nicholas.leong
  */
 @Getter
 @Data

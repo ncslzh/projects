@@ -16,7 +16,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 @Slf4j
 public class BloomFilterManager {
 
-    @Qualifier("otcStringRedisTemplate")
+//    @Qualifier("StringRedisTemplate")
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
