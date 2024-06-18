@@ -1,7 +1,7 @@
 package com.ncslzh.projects.criteriaengine.criteria;
 
 
-import com.ncslzh.projects.config.ConfigService;
+import com.ncslzh.projects.placeholders.ConfigService;
 import com.ncslzh.projects.criteriaengine.constants.CriteriaEngineEnums;
 import com.ncslzh.projects.criteriaengine.criterion.Criterion;
 import com.ncslzh.projects.criteriaengine.criterion.MaxLiableOrderDisputesCountCriterion;

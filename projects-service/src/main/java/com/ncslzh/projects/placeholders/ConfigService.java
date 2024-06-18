@@ -1,4 +1,4 @@
-package com.ncslzh.projects.config;
+package com.ncslzh.projects.placeholders;
 
 public interface ConfigService {
 
