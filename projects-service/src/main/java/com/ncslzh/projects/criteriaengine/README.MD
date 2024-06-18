@@ -25,7 +25,7 @@ or `CriteriaEngineEnums.CriteriaExecutionResult.FAILED`
 ---
 ## Example Usage
 
-In P2P Express, there are specific business logic that we need to filter out ads.
+In matching Ads, there are specific business logic that we need to filter out ads.
 For this example, we will specifically use the `LowQualityUsersCriteria` as it was the first one to be implemented using the criteria engine.
 
 This criteria is used to filter out Ads whose creators do not meet a certain standard, so that we can improve the quality of Ads being matched, with the
